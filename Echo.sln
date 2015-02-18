@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echo", "Echo\Echo.csproj", "{0DBF0DB3-3B2A-4FD4-8CE0-B70B48CE5658}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoTest", "EchoTest\EchoTest.csproj", "{F5093D23-34A4-4273-97F0-0A0DEF30222C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echo", "Echo\Echo.csproj", "{E99B6F21-A343-4FF0-A0AD-B36936C049E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DBF0DB3-3B2A-4FD4-8CE0-B70B48CE5658}.Debug|x86.ActiveCfg = Debug|x86
-		{0DBF0DB3-3B2A-4FD4-8CE0-B70B48CE5658}.Debug|x86.Build.0 = Debug|x86
-		{0DBF0DB3-3B2A-4FD4-8CE0-B70B48CE5658}.Release|x86.ActiveCfg = Release|x86
-		{0DBF0DB3-3B2A-4FD4-8CE0-B70B48CE5658}.Release|x86.Build.0 = Release|x86
+		{E99B6F21-A343-4FF0-A0AD-B36936C049E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E99B6F21-A343-4FF0-A0AD-B36936C049E3}.Debug|x86.Build.0 = Debug|Any CPU
+		{E99B6F21-A343-4FF0-A0AD-B36936C049E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{E99B6F21-A343-4FF0-A0AD-B36936C049E3}.Release|x86.Build.0 = Release|Any CPU
 		{F5093D23-34A4-4273-97F0-0A0DEF30222C}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{F5093D23-34A4-4273-97F0-0A0DEF30222C}.Debug|x86.Build.0 = Debug|Any CPU
 		{F5093D23-34A4-4273-97F0-0A0DEF30222C}.Release|x86.ActiveCfg = Release|Any CPU
