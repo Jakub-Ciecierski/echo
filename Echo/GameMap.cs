@@ -8,7 +8,7 @@ namespace Echo
 		{
 		}
 
-		public GameEvent Click(int x, int y)
+		public GameTrigger Click(int x, int y)
 		{
 			throw new NotImplementedException ();
 		}

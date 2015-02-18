@@ -26,15 +26,32 @@ namespace EchoTest
 
 			Area area = new Area (p);
 
+            GameTrigger gTrigger = new GameTrigger();
+
 			GameEvent gEvent = new GameEvent();
+            gEvent.AddTrigger(gTrigger);
+
 			area.AddEvent (gEvent);
 
 			gm.AddArea (area);
 
-			GameEvent actualEvent = gm.Click (2, 5);
+            GameTrigger actualTrigger = gm.Click(2, 5);
 
-			Assert.AreEqual (gEvent, actualEvent);
+			Assert.AreEqual (gTrigger, actualTrigger);
 		}
+
+        [Test()]
+        public void Click_NoArea_ReturnNoTrigger()
+        {
+            GameMap gm = createMap();
+
+            GameTrigger actualTrigger = gm.Click(2, 5);
+
+            Assert.AreEqual(GameTrigger.NoTrigger, actualTrigger);
+        }
+
+
+
 	}
 }
 
