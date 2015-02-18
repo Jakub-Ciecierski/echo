@@ -34,10 +34,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
+    <Compile Include="GameMapTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Echo\Echo.csproj">
+      <Project>{E99B6F21-A343-4FF0-A0AD-B36936C049E3}</Project>
+      <Name>Echo</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
