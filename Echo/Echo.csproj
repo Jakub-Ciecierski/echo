@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -31,15 +31,19 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="ChatEntries\ChoiceChatEntry.cs" />
+    <Compile Include="ChatEntries\TextChatEntry.cs" />
+    <Compile Include="Chat.cs" />
+    <Compile Include="ChatEntry.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GameMap.cs" />
-    <Compile Include="GameEvent.cs" />
+    <Compile Include="Map.cs" />
     <Compile Include="Area.cs" />
     <Compile Include="Library\Polygon.cs" />
+    <Compile Include="Story.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Folder Include="Library\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>

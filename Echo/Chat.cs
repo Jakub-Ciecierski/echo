@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Echo
 {
-    public class GameChat
+    public class Chat
     {
-        public GameChat()
+        public Chat()
         { 
         }
 

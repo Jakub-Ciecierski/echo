@@ -8,10 +8,6 @@ namespace Echo
 		{
 		}
 
-		public void AddEvent(GameEvent ge)
-		{
-			throw new NotImplementedException ();
-		}
 	}
 }
 

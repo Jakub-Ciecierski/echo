@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Echo
 {
-    public class GameAction<T>
+    public class Story
     {
-        public void AddOperation(Action<T> operation)
+        public void Add(Location XLocation, Location YLocation, ChatEntries.ChoiceChatEntry choiceChatEntry)
         {
             throw new NotImplementedException();
         }
 
-        public void Activate(T GameObject)
+        public List<ChatEntry> GetEntries(Location XLocation, Location YLocation)
         {
             throw new NotImplementedException();
         }

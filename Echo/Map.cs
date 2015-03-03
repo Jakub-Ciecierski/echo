@@ -2,15 +2,10 @@
 
 namespace Echo
 {
-	public class GameMap
+	public class Map
 	{
-		public GameMap ()
+		public Map ()
 		{
-		}
-
-		public GameTrigger Click(int x, int y)
-		{
-			throw new NotImplementedException ();
 		}
 
 		public void AddArea(Area area)

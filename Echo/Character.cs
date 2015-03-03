@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Echo
 {
-    public class GameTrigger
+    public class Character
     {
-        public static readonly GameTrigger NoTrigger;
-        public GameTrigger()
-        { 
-        }
+        public Location Location { get; set; }
     }
 }
